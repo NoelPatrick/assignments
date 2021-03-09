@@ -1,2 +1,2 @@
-# assingments
+# assignments
 workshop

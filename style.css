@@ -1,10 +1,13 @@
+:root{
+    --primary:#4EBE9E;
+}
 .coloursectioon{
    color: rgb(31, 31, 119);
 }
 .navbar-brand{
     font-size: 2.5rem;
     font-weight: bold;
-    color: #4EBE9E !important;
+    color: var(--primary) !important;
 }
 .nav-link{
     font-size: 1.5rem;
@@ -34,7 +37,7 @@
     color: #000000;
 }
 .feature-desc{
-    font font-size: 1rem;
+    font-size: 1rem;
     color: #4EBE9E;
 }
 .bot-l2{
@@ -63,17 +66,31 @@ color: white;
     
 }
 #testimonials{
-    background-color: teal;
+    background-color: #D2D6DA ;
 
 }
-.testimonial-text{
+.testimonial-texttitle-image{
     font-size: 3rem;
     line-height: 1.5rem;
     text-align: center;
 
 }
 .testimonial-image{
-    width: 10%;
+    width: 5%;
     border-radius: 50%;
     margin: 20px;
+  
+   
+}
+.title-image{
+    height: 300px;
+    width: 450px;
+}
+.icon{
+    color: #4EBE9E;
+    margin-bottom: 1rem;
+
+}
+.icon:hover{
+    color: #D2D6DA;
 }
